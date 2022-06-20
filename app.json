@@ -1,0 +1,34 @@
+{
+  "name": "Mock Server Express",
+  "description": "Sample mock server for product reviews",
+  "repository": "https://github.com/sandragolden/mock-server-express",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs",
+  "env": {
+    "SERVER_URL": {
+      "description": "The server endpoint",
+      "required": true,
+      "value": "https://your-app-name.herokuapp.com"
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "description": "Secret used to sign the access token JWT",
+      "required": true,
+      "value": "NLzYNimPWXfgJezWCGmifkNqTZx2NBJqUBWJxchnrHsWd"
+    },
+    "REFRESH_TOKEN_SECRET": {
+      "description": "Secret used to sign the refresh token JWT",
+      "required": true,
+      "value": "E4mGpWJ6i2MpysMCyg64zfphqR7qLowUcRDqRrLn6AfPb"
+    },
+    "USERNAME": {
+      "description": "Username to access the service via BASIC Auth",
+      "required": true,
+      "value": "admin"
+    },
+    "PASSWORD": {
+      "description": "Password to access the service via BASIC Auth",
+      "required": true,
+      "value": "iw8qeJmtUx4ibrf6HoWfdqfB2"
+    }
+  }
+}
