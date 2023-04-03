@@ -48,7 +48,7 @@ npm start
 ```
 
 ## Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/sandragolden/mock-server-express)
 
 ## Postman Collection
 Sample Postman collection attached [here](./postman).
